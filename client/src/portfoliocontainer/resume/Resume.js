@@ -60,10 +60,10 @@ const Resume = (props) => {
     { skill: "Node JS", ratingPercentage: 10 },
     { skill: "Mongo Db", ratingPercentage: 0 },
     { skill: "Java", ratingPercentage: 30 },
-    { skill: "HTML", ratingPercentage: 20 },
-    { skill: "CSS", ratingPercentage: 20 },
+    { skill: "HTML", ratingPercentage: 30 },
+    { skill: "CSS", ratingPercentage: 30 },
     { skill: "Python", ratingPercentage: 20 },
-    { skill: "Linux", ratingPercentage: 40 },
+    { skill: "Linux", ratingPercentage: 30 },
   ];
 
   const projectsDetails = [
@@ -121,11 +121,10 @@ const Resume = (props) => {
         }
       />
       <ResumeHeading
-        heading={"Full Stack Open"}
+        heading={"Odin Project"}
         subHeading={"Full Stack Javascript"}
-        // https://fullstackopen.com/en/
-        fromDate={"2022.05"}
-        toDate={"2023(estimated Fall)"}
+        fromDate={"2022.03"}
+        toDate={"2022(estimated Fall)"}
       />
     </div>,
 
@@ -257,7 +256,7 @@ const Resume = (props) => {
 
   return (
     <div className="resume-container screen-container" id={props.id || ""}>
-      {/*     <div className="resume-container screen-container fade-in" id={props.id || ""}> */}
+    {/*     <div className="resume-container screen-container fade-in" id={props.id || ""}> */}
       <div className="resume-content">
         <ScreenHeading title={"Resume"} subHeading={"My formal Bio Details"} />
         <div className="resume-card">
